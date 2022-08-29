@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1{
+	color:white;
+}
+body{
+	padding: 30px;
+	background: #FC5C7D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+.App{
+	margin: 20px;
+}
+
+.categorias{
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	padding:5px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	margin-top: 10px;
+}
+
+.card-grid{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding:20px;
+	max-height: 410px;
+	overflow: auto;
+}
+
+.card{
+	padding: 10px;
+	
+	width: 170px;
+	height: 170px;
+	max-width: 170px;
+	max-height: 170px;
+
+	box-shadow: rgba(0, 0, 0, 0.120) 3px 3px 8px;
+	margin: 10px;
+	overflow: hidden;
+	align-content: center;
+}
+
+.card p{
+	text-align: center;
+	font-size: 15px;
+	text-overflow: ellipsis;
+	max-height: 23px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	text-transform: capitalize;
+}
+
+p{
+	text-align: center;
+}
+
+.gif{
+	width: 150px;
+	height: 110px;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	overflow: hidden;
+}
+
+.card img{
+	width: 150px;
+	height: 110px;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	overflow: hidden;
+}
+
+
+h3{
+	text-align: center;
+	font-size: 30px;
+	margin: 20px;
+}
+
+.centrar{
+	display: flex;
+  	justify-content: center;
+}
+
+
+hr{
+	margin:1%
+}
