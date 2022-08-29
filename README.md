@@ -6,3 +6,5 @@ App del curso de react pero con algunas mejoras:
 -Añadí un boton para eliminar la categoria
 
 -Si no encuentra imágenes, envia un alert y elimina esa categoria
+
+-La hice mucho más bonita (?
