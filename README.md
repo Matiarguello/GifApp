@@ -8,3 +8,5 @@ App del curso de react pero con algunas mejoras:
 -Si no encuentra imágenes, envia un alert y elimina esa categoria
 
 -La hice mucho más bonita (?
+
+URL: https://matiasesf.github.io/GifApp/
