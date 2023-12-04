@@ -9,4 +9,4 @@ App del curso de react pero con algunas mejoras:
 
 -La hice mucho más bonita (?
 
-URL: https://matiasesf.github.io/GifApp/
+URL: [https://matiasesf.github.io/GifApp/](https://matiarguello.github.io/GifApp/)https://matiarguello.github.io/GifApp/]
